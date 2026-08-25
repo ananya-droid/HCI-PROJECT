@@ -157,9 +157,6 @@ train once on the complete dataset.
 # general conversation mode
 python live_sign_test.py
 
-# job-interview demo (the flagship scenario)
-python live_sign_test.py --mode interview
-
 # force offline sentence generation (skip the AI call)
 python live_sign_test.py --no-ai
 ```

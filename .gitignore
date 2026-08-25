@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Model artifacts (train locally / share via releases, not every commit)
+*.keras
+label_classes.npy
+
+# MediaPipe model file (download separately, see README)
+hand_landmarker.task
+
+# Uploaded temp files
+uploads_tmp/*
+!uploads_tmp/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

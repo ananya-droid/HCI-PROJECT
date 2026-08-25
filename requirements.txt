@@ -1,0 +1,9 @@
+numpy
+opencv-python
+mediapipe==1.0.1
+tensorflow==2.21.0
+protobuf==7.36.0
+scikit-learn
+flask
+pyttsx3
+anthropic
